@@ -1,0 +1,30 @@
+{
+    "name": "soved/laravel-gdpr",
+    "description": "GDPR compliance with ease",
+    "keywords": ["laravel", "gdpr", "data-portability", "soved", "data-retention", "encryption"],
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soved\\Laravel\\Gdpr\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sander de Vos",
+            "email": "sander@tutanota.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Soved\\Laravel\\Gdpr\\GdprServiceProvider"
+            ]
+        }
+    }
+}

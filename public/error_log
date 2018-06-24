@@ -1,0 +1,19 @@
+[19-Jun-2018 19:30:28 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/fablus/public_html/fablus/vendor/symfony/http-foundation/Response.php on line 491
+[19-Jun-2018 19:30:28 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Jun-2018 19:31:07 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/fablus/public_html/fablus/vendor/symfony/http-foundation/Response.php on line 491
+[19-Jun-2018 19:31:07 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Jun-2018 19:33:33 UTC] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/fablus/public_html/vendor/symfony/http-kernel/Exception/HttpException.php on line 24
+[19-Jun-2018 19:33:33 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Jun-2018 19:34:02 UTC] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/fablus/public_html/vendor/symfony/http-kernel/Exception/HttpException.php on line 24
+[19-Jun-2018 19:34:02 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Jun-2018 19:34:05 UTC] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/fablus/public_html/vendor/symfony/http-kernel/Exception/HttpException.php on line 24
+[19-Jun-2018 19:34:05 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Jun-2018 19:34:06 UTC] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/fablus/public_html/vendor/symfony/http-kernel/Exception/HttpException.php on line 24
+[19-Jun-2018 19:34:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Jun-2018 06:49:54 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/fablus/public_html/bootstrap/app.php on line 2
+[22-Jun-2018 10:37:23 UTC] PHP Fatal error:  Cannot declare class App\Mail\FablusEnquiry because the name is already in use in /home/fablus/public_html/app/Mail/FablusEnquiry.php on line 11
+[22-Jun-2018 11:23:41 UTC] PHP Fatal error:  Cannot declare class App\Mail\FablusEnquiry because the name is already in use in /home/fablus/public_html/app/Mail/FablusEnquiry.php on line 11
+[23-Jun-2018 05:39:43 UTC] PHP Fatal error:  Illegal offset type in /home/fablus/public_html/app/Http/Controllers/KiteController.php on line 21
+[23-Jun-2018 05:43:34 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/fablus/public_html/app/Http/Controllers/KiteController.php on line 24
+[23-Jun-2018 06:10:19 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/fablus/public_html/app/Http/Controllers/KiteController.php on line 42
+[23-Jun-2018 12:02:35 UTC] PHP Fatal error:  Cannot use [] for reading in /home/fablus/public_html/app/Http/Controllers/KiteController.php on line 62
