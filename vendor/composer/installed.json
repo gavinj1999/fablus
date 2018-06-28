@@ -1893,6 +1893,64 @@
         ]
     },
     {
+        "name": "jivesh/laravel-slack",
+        "version": "2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gahlawat/laravel-slack.git",
+            "reference": "5bacf661bbf7a0796b792259b709925454e5ec71"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gahlawat/laravel-slack/zipball/5bacf661bbf7a0796b792259b709925454e5ec71",
+            "reference": "5bacf661bbf7a0796b792259b709925454e5ec71",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": "^6.3"
+        },
+        "require-dev": {
+            "orchestra/testbench": "^3.6",
+            "phpunit/phpunit": "^7.0",
+            "squizlabs/php_codesniffer": "^3.2"
+        },
+        "time": "2018-04-04T07:50:09+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Gahlawat\\Slack\\SlackServiceProvider"
+                ],
+                "aliases": {
+                    "Slack": "Gahlawat\\Slack\\Facade\\Slack"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Gahlawat\\Slack\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jivesh Gahlawat",
+                "email": "jiveshsg@gmail.com"
+            }
+        ],
+        "description": "A minimalist laravel integration for Slack",
+        "homepage": "https://gahlawat.github.io/laravel-slack",
+        "keywords": [
+            "laravel",
+            "slack"
+        ]
+    },
+    {
         "name": "justinrainbow/json-schema",
         "version": "5.2.7",
         "version_normalized": "5.2.7.0",
@@ -2596,6 +2654,63 @@
             "duplicate",
             "object",
             "object graph"
+        ]
+    },
+    {
+        "name": "nathanmac/parser",
+        "version": "v4.3",
+        "version_normalized": "4.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nathanmac/Parser.git",
+            "reference": "c7d448933aaf130740413d1fa5f7fe5d45fb458e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nathanmac/Parser/zipball/c7d448933aaf130740413d1fa5f7fe5d45fb458e",
+            "reference": "c7d448933aaf130740413d1fa5f7fe5d45fb458e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "symfony/yaml": "~2.0|~3.0"
+        },
+        "require-dev": {
+            "illuminate/support": "~5.0",
+            "mockery/mockery": "0.9.3",
+            "phpunit/phpunit": "4.*",
+            "scrutinizer/ocular": "^1.1"
+        },
+        "time": "2016-09-07T11:18:17+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Nathanmac\\Utilities\\Parser\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nathan Macnamara",
+                "email": "hola@nathanmac.com"
+            }
+        ],
+        "description": "Simple PHP Parser Utility Library for API Development",
+        "homepage": "https://github.com/nathanmac/Parser",
+        "keywords": [
+            "api",
+            "json",
+            "parser",
+            "xml"
         ]
     },
     {
@@ -4838,6 +4953,64 @@
         ]
     },
     {
+        "name": "spatie/laravel-tail",
+        "version": "3.1.0",
+        "version_normalized": "3.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/spatie/laravel-tail.git",
+            "reference": "48d5ab722d2298d67505f5928f75152fce5dfc5a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/spatie/laravel-tail/zipball/48d5ab722d2298d67505f5928f75152fce5dfc5a",
+            "reference": "48d5ab722d2298d67505f5928f75152fce5dfc5a",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/console": "~5.5.0|~5.6.0",
+            "illuminate/support": "~5.5.0|~5.6.0",
+            "php": "^7.0",
+            "symfony/process": "^3.3|^4.0"
+        },
+        "time": "2018-04-12T12:07:07+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Spatie\\Tail\\TailServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Spatie\\Tail\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Freek Van der Herten",
+                "email": "freek@spatie.be",
+                "homepage": "https://murze.be",
+                "role": "Developer"
+            }
+        ],
+        "description": "Easily tail the application log",
+        "homepage": "https://github.com/spatie/laravel-tail",
+        "keywords": [
+            "development",
+            "laravel",
+            "laravel-tail",
+            "log",
+            "tail"
+        ]
+    },
+    {
         "name": "spatie/temporary-directory",
         "version": "1.1.4",
         "version_normalized": "1.1.4.0",
@@ -5716,6 +5889,68 @@
         "homepage": "https://symfony.com"
     },
     {
+        "name": "symfony/psr-http-message-bridge",
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/psr-http-message-bridge.git",
+            "reference": "c2b757934f2d9681a287e662efbc27c41fe8ef86"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/psr-http-message-bridge/zipball/c2b757934f2d9681a287e662efbc27c41fe8ef86",
+            "reference": "c2b757934f2d9681a287e662efbc27c41fe8ef86",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "psr/http-message": "~1.0",
+            "symfony/http-foundation": "~2.3|~3.0|~4.0"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "~3.2|4.0"
+        },
+        "suggest": {
+            "psr/http-message-implementation": "To use the HttpFoundation factory",
+            "zendframework/zend-diactoros": "To use the Zend Diactoros factory"
+        },
+        "time": "2017-12-19T00:31:44+00:00",
+        "type": "symfony-bridge",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Bridge\\PsrHttpMessage\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "PSR HTTP message bridge",
+        "homepage": "http://symfony.com",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr-7"
+        ]
+    },
+    {
         "name": "symfony/routing",
         "version": "v4.1.0",
         "version_normalized": "4.1.0.0",
@@ -5944,6 +6179,67 @@
         ]
     },
     {
+        "name": "symfony/yaml",
+        "version": "v3.4.12",
+        "version_normalized": "3.4.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/yaml.git",
+            "reference": "c5010cc1692ce1fa328b1fb666961eb3d4a85bb0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/c5010cc1692ce1fa328b1fb666961eb3d4a85bb0",
+            "reference": "c5010cc1692ce1fa328b1fb666961eb3d4a85bb0",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-ctype": "~1.8"
+        },
+        "conflict": {
+            "symfony/console": "<3.4"
+        },
+        "require-dev": {
+            "symfony/console": "~3.4|~4.0"
+        },
+        "suggest": {
+            "symfony/console": "For validating YAML files using the lint command"
+        },
+        "time": "2018-05-03T23:18:14+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Yaml\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    },
+    {
         "name": "tcg/voyager",
         "version": "v1.1.2",
         "version_normalized": "1.1.2.0",
@@ -6013,6 +6309,50 @@
         ]
     },
     {
+        "name": "themattharris/tmhoauth",
+        "version": "0.8.4",
+        "version_normalized": "0.8.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/themattharris/tmhOAuth.git",
+            "reference": "455552d6c57549632644b6c9ac9204766be2b5ee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/themattharris/tmhOAuth/zipball/455552d6c57549632644b6c9ac9204766be2b5ee",
+            "reference": "455552d6c57549632644b6c9ac9204766be2b5ee",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2014-08-06T22:29:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "tmhOAuth": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "themattharris",
+                "email": "matt@themattharris.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "An OAuth library written in PHP by @themattharris",
+        "keywords": [
+            "oauth",
+            "twitter"
+        ]
+    },
+    {
         "name": "theseer/tokenizer",
         "version": "1.1.0",
         "version_normalized": "1.1.0.0",
@@ -6053,6 +6393,52 @@
             }
         ],
         "description": "A small library for converting tokenized PHP source code into XML and potentially other formats"
+    },
+    {
+        "name": "thujohn/twitter",
+        "version": "2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thujohn/twitter.git",
+            "reference": "ff414bdadba3f1570ca211355e5359ec266552d8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thujohn/twitter/zipball/ff414bdadba3f1570ca211355e5359ec266552d8",
+            "reference": "ff414bdadba3f1570ca211355e5359ec266552d8",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "4.*|5.*",
+            "php": ">=5.5.0",
+            "themattharris/tmhoauth": "0.8.4"
+        },
+        "time": "2017-04-27T09:00:04+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Thujohn\\Twitter": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "thujohn",
+                "email": "jonathan.thuau@gmail.com"
+            }
+        ],
+        "description": "Twitter API for Laravel",
+        "keywords": [
+            "laravel",
+            "laravel4",
+            "laravel5",
+            "twitter"
+        ]
     },
     {
         "name": "tijsverkoyen/css-to-inline-styles",

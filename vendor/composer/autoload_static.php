@@ -9,13 +9,13 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
     public static $files = array (
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
@@ -48,6 +48,7 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
             'Symfony\\Polyfill\\Php72\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\Routing\\' => 26,
@@ -60,8 +61,10 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'Srmklive\\Dropbox\\' => 17,
             'Spatie\\TemporaryDirectory\\' => 26,
+            'Spatie\\Tail\\' => 12,
             'Spatie\\DbDumper\\' => 16,
             'Spatie\\CookieConsent\\' => 21,
             'Spatie\\Backup\\' => 14,
@@ -86,6 +89,7 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'N' => 
         array (
             'NunoMaduro\\Collision\\' => 21,
+            'Nathanmac\\Utilities\\Parser\\' => 27,
         ),
         'M' => 
         array (
@@ -113,6 +117,7 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'Gahlawat\\Slack\\' => 15,
         ),
         'F' => 
         array (
@@ -199,6 +204,10 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Symfony\\Component\\Yaml\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
         'Symfony\\Component\\VarDumper\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
@@ -247,6 +256,10 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'Symfony\\Bridge\\PsrHttpMessage\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
+        ),
         'Srmklive\\Dropbox\\' => 
         array (
             0 => __DIR__ . '/..' . '/srmklive/flysystem-dropbox-v2/src',
@@ -254,6 +267,10 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'Spatie\\TemporaryDirectory\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/temporary-directory/src',
+        ),
+        'Spatie\\Tail\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-tail/src',
         ),
         'Spatie\\DbDumper\\' => 
         array (
@@ -315,6 +332,10 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
         ),
+        'Nathanmac\\Utilities\\Parser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nathanmac/parser/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -362,6 +383,10 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Gahlawat\\Slack\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jivesh/laravel-slack/src',
         ),
         'Fideloper\\Proxy\\' => 
         array (
@@ -454,6 +479,20 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
     );
 
     public static $prefixesPsr0 = array (
+        't' => 
+        array (
+            'tmhOAuth' => 
+            array (
+                0 => __DIR__ . '/..' . '/themattharris/tmhoauth',
+            ),
+        ),
+        'T' => 
+        array (
+            'Thujohn\\Twitter' => 
+            array (
+                0 => __DIR__ . '/..' . '/thujohn/twitter/src',
+            ),
+        ),
         'P' => 
         array (
             'Prophecy\\' => 
@@ -501,7 +540,9 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
     );
 
     public static $classMap = array (
+        'App\\Article' => __DIR__ . '/../..' . '/app/Article.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\Enquiry' => __DIR__ . '/../..' . '/app/Enquiry.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
@@ -509,18 +550,33 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\FablusController' => __DIR__ . '/../..' . '/app/Http/Controllers/FablusController.php',
+        'App\\Http\\Controllers\\KikoeController' => __DIR__ . '/../..' . '/app/Http/Controllers/KikoeController.php',
+        'App\\Http\\Controllers\\KiteController' => __DIR__ . '/../..' . '/app/Http/Controllers/KiteController.php',
+        'App\\Http\\Controllers\\TttController' => __DIR__ . '/../..' . '/app/Http/Controllers/TttController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Mail\\FablusEnquiry' => __DIR__ . '/../..' . '/app/Mail/FablusEnquiry.php',
+        'App\\Merchant' => __DIR__ . '/../..' . '/app/Merchant.php',
+        'App\\MerchantLink' => __DIR__ . '/../..' . '/app/MerchantLink.php',
+        'App\\Newsapi' => __DIR__ . '/../..' . '/app/Newsapi.php',
+        'App\\Newscategory' => __DIR__ . '/../..' . '/app/Newscategory.php',
+        'App\\Newssource' => __DIR__ . '/../..' . '/app/Newssource.php',
+        'App\\Newstopic' => __DIR__ . '/../..' . '/app/Newstopic.php',
+        'App\\Notifications\\FeedUpdated' => __DIR__ . '/../..' . '/app/Notifications/FeedUpdated.php',
+        'App\\Portfolio' => __DIR__ . '/../..' . '/app/Portfolio.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Service' => __DIR__ . '/../..' . '/app/Service.php',
+        'App\\Site' => __DIR__ . '/../..' . '/app/Site.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\Youtube' => __DIR__ . '/../..' . '/app/Youtube.php',
         'Arrilot\\Widgets\\AbstractWidget' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/AbstractWidget.php',
         'Arrilot\\Widgets\\AsyncFacade' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/AsyncFacade.php',
         'Arrilot\\Widgets\\Console\\WidgetMakeCommand' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Console/WidgetMakeCommand.php',
@@ -1782,6 +1838,9 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/ValidGenerator.php',
         'Fideloper\\Proxy\\TrustProxies' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustProxies.php',
         'Fideloper\\Proxy\\TrustedProxyServiceProvider' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustedProxyServiceProvider.php',
+        'Gahlawat\\Slack\\Facade\\Slack' => __DIR__ . '/..' . '/jivesh/laravel-slack/src/Facade/Slack.php',
+        'Gahlawat\\Slack\\Slack' => __DIR__ . '/..' . '/jivesh/laravel-slack/src/Slack.php',
+        'Gahlawat\\Slack\\SlackServiceProvider' => __DIR__ . '/..' . '/jivesh/laravel-slack/src/SlackServiceProvider.php',
         'GuzzleHttp\\Client' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Client.php',
         'GuzzleHttp\\ClientInterface' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/ClientInterface.php',
         'GuzzleHttp\\Cookie\\CookieJar' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Cookie/CookieJar.php',
@@ -3141,6 +3200,18 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'Monolog\\Processor\\UidProcessor' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Processor/UidProcessor.php',
         'Monolog\\Processor\\WebProcessor' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Processor/WebProcessor.php',
         'Monolog\\Registry' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Registry.php',
+        'Nathanmac\\Utilities\\Parser\\Exceptions\\ParserException' => __DIR__ . '/..' . '/nathanmac/parser/src/Exceptions/ParserException.php',
+        'Nathanmac\\Utilities\\Parser\\Facades\\Parser' => __DIR__ . '/..' . '/nathanmac/parser/src/Facades/Parser.php',
+        'Nathanmac\\Utilities\\Parser\\Formats\\BSON' => __DIR__ . '/..' . '/nathanmac/parser/src/Formats/BSON.php',
+        'Nathanmac\\Utilities\\Parser\\Formats\\FormatInterface' => __DIR__ . '/..' . '/nathanmac/parser/src/Formats/FormatInterface.php',
+        'Nathanmac\\Utilities\\Parser\\Formats\\JSON' => __DIR__ . '/..' . '/nathanmac/parser/src/Formats/JSON.php',
+        'Nathanmac\\Utilities\\Parser\\Formats\\MSGPack' => __DIR__ . '/..' . '/nathanmac/parser/src/Formats/MSGPack.php',
+        'Nathanmac\\Utilities\\Parser\\Formats\\QueryStr' => __DIR__ . '/..' . '/nathanmac/parser/src/Formats/QueryStr.php',
+        'Nathanmac\\Utilities\\Parser\\Formats\\Serialize' => __DIR__ . '/..' . '/nathanmac/parser/src/Formats/Serialize.php',
+        'Nathanmac\\Utilities\\Parser\\Formats\\XML' => __DIR__ . '/..' . '/nathanmac/parser/src/Formats/XML.php',
+        'Nathanmac\\Utilities\\Parser\\Formats\\YAML' => __DIR__ . '/..' . '/nathanmac/parser/src/Formats/YAML.php',
+        'Nathanmac\\Utilities\\Parser\\Parser' => __DIR__ . '/..' . '/nathanmac/parser/src/Parser.php',
+        'Nathanmac\\Utilities\\Parser\\ParserServiceProvider' => __DIR__ . '/..' . '/nathanmac/parser/src/ParserServiceProvider.php',
         'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php',
         'NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php',
         'NunoMaduro\\Collision\\Adapters\\Laravel\\Inspector' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Laravel/Inspector.php',
@@ -4272,6 +4343,8 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'Spatie\\DbDumper\\Exceptions\\CannotSetParameter' => __DIR__ . '/..' . '/spatie/db-dumper/src/Exceptions/CannotSetParameter.php',
         'Spatie\\DbDumper\\Exceptions\\CannotStartDump' => __DIR__ . '/..' . '/spatie/db-dumper/src/Exceptions/CannotStartDump.php',
         'Spatie\\DbDumper\\Exceptions\\DumpFailed' => __DIR__ . '/..' . '/spatie/db-dumper/src/Exceptions/DumpFailed.php',
+        'Spatie\\Tail\\TailCommand' => __DIR__ . '/..' . '/spatie/laravel-tail/src/TailCommand.php',
+        'Spatie\\Tail\\TailServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-tail/src/TailServiceProvider.php',
         'Spatie\\TemporaryDirectory\\TemporaryDirectory' => __DIR__ . '/..' . '/spatie/temporary-directory/src/TemporaryDirectory.php',
         'Srmklive\\Dropbox\\Adapter\\DropboxAdapter' => __DIR__ . '/..' . '/srmklive/flysystem-dropbox-v2/src/Adapter/DropboxAdapter.php',
         'Srmklive\\Dropbox\\Client\\DropboxClient' => __DIR__ . '/..' . '/srmklive/flysystem-dropbox-v2/src/Client/DropboxClient.php',
@@ -4279,6 +4352,18 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'Srmklive\\Dropbox\\Exceptions\\BadRequest' => __DIR__ . '/..' . '/srmklive/flysystem-dropbox-v2/src/Exceptions/BadRequest.php',
         'Srmklive\\Dropbox\\ParseResponse' => __DIR__ . '/..' . '/srmklive/flysystem-dropbox-v2/src/ParseResponse.php',
         'Srmklive\\Dropbox\\UploadContent' => __DIR__ . '/..' . '/srmklive/flysystem-dropbox-v2/src/UploadContent.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Factory\\DiactorosFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/DiactorosFactory.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Factory\\HttpFoundationFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/HttpFoundationFactory.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\HttpFoundationFactoryInterface' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/HttpFoundationFactoryInterface.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\HttpMessageFactoryInterface' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/HttpMessageFactoryInterface.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Factory\\DiactorosFactoryTest' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Factory/DiactorosFactoryTest.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Factory\\HttpFoundationFactoryTest' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Factory/HttpFoundationFactoryTest.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Fixtures\\Message' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Fixtures/Message.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Fixtures\\Response' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Fixtures/Response.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Fixtures\\ServerRequest' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Fixtures/ServerRequest.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Fixtures\\Stream' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Fixtures/Stream.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Fixtures\\UploadedFile' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Fixtures/UploadedFile.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Fixtures\\Uri' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Fixtures/Uri.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',
@@ -4851,6 +4936,18 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'Symfony\\Component\\VarDumper\\Server\\DumpServer' => __DIR__ . '/..' . '/symfony/var-dumper/Server/DumpServer.php',
         'Symfony\\Component\\VarDumper\\Test\\VarDumperTestTrait' => __DIR__ . '/..' . '/symfony/var-dumper/Test/VarDumperTestTrait.php',
         'Symfony\\Component\\VarDumper\\VarDumper' => __DIR__ . '/..' . '/symfony/var-dumper/VarDumper.php',
+        'Symfony\\Component\\Yaml\\Command\\LintCommand' => __DIR__ . '/..' . '/symfony/yaml/Command/LintCommand.php',
+        'Symfony\\Component\\Yaml\\Dumper' => __DIR__ . '/..' . '/symfony/yaml/Dumper.php',
+        'Symfony\\Component\\Yaml\\Escaper' => __DIR__ . '/..' . '/symfony/yaml/Escaper.php',
+        'Symfony\\Component\\Yaml\\Exception\\DumpException' => __DIR__ . '/..' . '/symfony/yaml/Exception/DumpException.php',
+        'Symfony\\Component\\Yaml\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/yaml/Exception/ExceptionInterface.php',
+        'Symfony\\Component\\Yaml\\Exception\\ParseException' => __DIR__ . '/..' . '/symfony/yaml/Exception/ParseException.php',
+        'Symfony\\Component\\Yaml\\Exception\\RuntimeException' => __DIR__ . '/..' . '/symfony/yaml/Exception/RuntimeException.php',
+        'Symfony\\Component\\Yaml\\Inline' => __DIR__ . '/..' . '/symfony/yaml/Inline.php',
+        'Symfony\\Component\\Yaml\\Parser' => __DIR__ . '/..' . '/symfony/yaml/Parser.php',
+        'Symfony\\Component\\Yaml\\Tag\\TaggedValue' => __DIR__ . '/..' . '/symfony/yaml/Tag/TaggedValue.php',
+        'Symfony\\Component\\Yaml\\Unescaper' => __DIR__ . '/..' . '/symfony/yaml/Unescaper.php',
+        'Symfony\\Component\\Yaml\\Yaml' => __DIR__ . '/..' . '/symfony/yaml/Yaml.php',
         'Symfony\\Polyfill\\Ctype\\Ctype' => __DIR__ . '/..' . '/symfony/polyfill-ctype/Ctype.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php72\\Php72' => __DIR__ . '/..' . '/symfony/polyfill-php72/Php72.php',
@@ -5058,6 +5155,22 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
+        'Thujohn\\Twitter\\Facades\\Twitter' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Facades/Twitter.php',
+        'Thujohn\\Twitter\\Traits\\AccountTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/AccountTrait.php',
+        'Thujohn\\Twitter\\Traits\\BlockTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/BlockTrait.php',
+        'Thujohn\\Twitter\\Traits\\DirectMessageTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/DirectMessageTrait.php',
+        'Thujohn\\Twitter\\Traits\\FavoriteTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/FavoriteTrait.php',
+        'Thujohn\\Twitter\\Traits\\FriendshipTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/FriendshipTrait.php',
+        'Thujohn\\Twitter\\Traits\\GeoTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/GeoTrait.php',
+        'Thujohn\\Twitter\\Traits\\HelpTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/HelpTrait.php',
+        'Thujohn\\Twitter\\Traits\\ListTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/ListTrait.php',
+        'Thujohn\\Twitter\\Traits\\MediaTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/MediaTrait.php',
+        'Thujohn\\Twitter\\Traits\\SearchTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/SearchTrait.php',
+        'Thujohn\\Twitter\\Traits\\StatusTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/StatusTrait.php',
+        'Thujohn\\Twitter\\Traits\\TrendTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/TrendTrait.php',
+        'Thujohn\\Twitter\\Traits\\UserTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/UserTrait.php',
+        'Thujohn\\Twitter\\Twitter' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Twitter.php',
+        'Thujohn\\Twitter\\TwitterServiceProvider' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/TwitterServiceProvider.php',
         'TijsVerkoyen\\CssToInlineStyles\\CssToInlineStyles' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/CssToInlineStyles.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Processor.php',
@@ -5155,6 +5268,7 @@ class ComposerStaticInit2fd073b990f2edb2655a2ea9bf3f7952
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+        'tmhOAuth' => __DIR__ . '/..' . '/themattharris/tmhoauth/tmhOAuth.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
