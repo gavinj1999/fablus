@@ -25,6 +25,7 @@ class KikoeController extends Controller
         $hotNews = NewsApi::limit(12)->orderBy('score', 'DESC')->get();
         $youtube = Youtube::where('featured', 1)->get();
         $categories = Newscategory::select('name')->get();
+        $youtube = Youtube::limit(4)->inRandomOrder()->get();
 
         Slack::send('Kikoe Home Page Viewed'.$this->remoteIp());
         return view('kikoe.index')
@@ -33,7 +34,8 @@ class KikoeController extends Controller
         ->with('topics', $topics)
         ->with('hotNews', $hotNews)
         ->with('youtube', $youtube)
-        ->with('categories', $categories);
+        ->with('categories', $categories)
+        ->with('youtube', $youtube);
     }
 
 
@@ -175,7 +177,13 @@ class KikoeController extends Controller
       $vids = ($data['items']);
 
       foreach($vids as $vid){
-    echo($vid['id'].'<br />');
+        $youtube = Youtube::firstorcreate([
+          'videoid' => $vid['id'],
+        ],
+        [
+          'videoid'=> $vid['id'],
+        ]);
+
       }
     }
 
@@ -190,5 +198,11 @@ class KikoeController extends Controller
         }
 
         return($ip);
+    }
+
+    public function test(){
+
+      $set = Twitter::getFollowersIds();
+      dd ($set);
     }
 }

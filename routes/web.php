@@ -40,6 +40,7 @@ Route::group(['domain' => 'kikoe.co.uk'], function()
   Route::get('/twitback','KikoeController@twitback');
   Route::get('/api/tweetme', 'KikoeController@tweetMe');
   Route::get('/api/youtube', 'KikoeController@getYouTube');
+  Route::get('/api/test', 'KikoeController@test');
 
 });
 Route::group(['prefix' => 'admin'], function () {
