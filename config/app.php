@@ -150,6 +150,9 @@ return [
         BackupManager\Laravel\Laravel55ServiceProvider::class,
         Gahlawat\Slack\SlackServiceProvider::class,
         Thujohn\Twitter\TwitterServiceProvider::class,
+        Jorenvh\Share\Providers\ShareServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
+        SocialiteProviders\Manager\ServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -214,6 +217,10 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Slack' => Gahlawat\Slack\Facade\Slack::class,
         'Twitter' => Thujohn\Twitter\Facades\Twitter::class,
+        'Share' => Jorenvh\Share\ShareFacade::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class
 
     ],
 

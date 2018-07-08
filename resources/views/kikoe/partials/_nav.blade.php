@@ -2,7 +2,7 @@
   <div class="container">
     <div class="brand">
       <a href="#">
-        <img src="https://static.fablus.co.uk/images/logo.png" alt="Magz Logo">
+        <img src="/storage/{{setting('kiko.kikologo')}}" alt="Kikoe Logo">
       </a>
     </div>
     <div class="mobile-toggle">
@@ -89,54 +89,25 @@
                     </div>
                   </div>
                   <div class="row">
+                    @foreach($megamenu as $mega)
+
                     <article class="article col-md-4 mini">
                       <div class="inner">
                         <figure>
                           <a href="single.html">
-                            <img src="https://static.fablus.co.uk/images/news/img10.jpg" alt="Sample Article">
+                            <img src="{{$mega->urlToImage}}" alt="Sample Article">
                           </a>
                         </figure>
                         <div class="padding">
                           <div class="detail">
-                            <div class="time">December 10, 2016</div>
-                            <div class="category"><a href="category.html">Healthy</a></div>
+                            <div class="time">{{$mega->published_at}}</div>
+                            <div class="category"><a href="/category/{{$mega->category}}">{{$mega->category}}</a></div>
                           </div>
-                          <h2><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
+                          <h2><a href="/article/{{$mega->slug}}">{{$mega->title}}</a></h2>
                         </div>
                       </div>
                     </article>
-                    <article class="article col-md-4 mini">
-                      <div class="inner">
-                        <figure>
-                          <a href="single.html">
-                            <img src="https://static.fablus.co.uk/images/news/img11.jpg" alt="Sample Article">
-                          </a>
-                        </figure>
-                        <div class="padding">
-                          <div class="detail">
-                            <div class="time">December 13, 2016</div>
-                            <div class="category"><a href="category.html">Lifestyle</a></div>
-                          </div>
-                          <h2><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
-                        </div>
-                      </div>
-                    </article>
-                    <article class="article col-md-4 mini">
-                      <div class="inner">
-                        <figure>
-                          <a href="single.html">
-                            <img src="https://static.fablus.co.uk/images/news/img14.jpg" alt="Sample Article">
-                          </a>
-                        </figure>
-                        <div class="padding">
-                          <div class="detail">
-                            <div class="time">December 14, 2016</div>
-                            <div class="category"><a href="category.html">Travel</a></div>
-                          </div>
-                          <h2><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
-                        </div>
-                      </div>
-                    </article>
+    @endforeach
                   </div>
                 </div>
               </div>

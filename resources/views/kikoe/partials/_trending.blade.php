@@ -2,8 +2,8 @@
   <h1 class="title-col">Trending Tags</h1>
   <div class="body-col">
     <ol class="tags-list">
-      @foreach($topics as $topic)
-      <li><a href="#">{{$topic->topic}}</a></li>
+      @foreach($trending as $trend)
+      <li><a href="{{$trend->url}}">{{$trend->name}}</a></li>
     @endforeach
     </ol>
   </div>

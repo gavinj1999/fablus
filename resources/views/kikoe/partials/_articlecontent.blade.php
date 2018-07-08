@@ -1,0 +1,3 @@
+<p>
+  Content placeholder
+</p>

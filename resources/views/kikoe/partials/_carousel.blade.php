@@ -8,9 +8,9 @@
         <img src="{{$article->urlToImage}}" alt="Sample Article">
       </figure>
       <div class="details">
-        <div class="category"><a href="category.html">{{$article->category}}</a></div>
-        <h1><a href="single.html">{{$article->title}}</a></h1>
-        <div class="time">{{$article->published_at}}</div>
+        <div class="category"><a href="/category/{{$article->category}}">{{$article->category}}</a></div>
+        <h1><a href="/article/{{$article->slug}}">{{$article->title}}</a></h1>
+        <div class="time">{{Carbon\Carbon::parse($article->published_at)->diffForHumans()}}</div>
       </div>
     </article>
   </div>

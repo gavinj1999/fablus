@@ -17,3 +17,11 @@
 [23-Jun-2018 05:43:34 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/fablus/public_html/app/Http/Controllers/KiteController.php on line 24
 [23-Jun-2018 06:10:19 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/fablus/public_html/app/Http/Controllers/KiteController.php on line 42
 [23-Jun-2018 12:02:35 UTC] PHP Fatal error:  Cannot use [] for reading in /home/fablus/public_html/app/Http/Controllers/KiteController.php on line 62
+[03-Jul-2018 13:01:36 UTC] PHP Fatal error:  Cannot redeclare App\Youtube::trend() in /home/fablus/public_html/app/Youtube.php on line 17
+[04-Jul-2018 12:54:19 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/fablus/public_html/app/Http/Controllers/KikoeTwitterController.php on line 10
+[04-Jul-2018 12:54:41 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/fablus/public_html/app/Http/Controllers/KikoeTwitterController.php on line 10
+[04-Jul-2018 12:55:38 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/fablus/public_html/app/Http/Controllers/KikoeTwitterController.php on line 10
+[04-Jul-2018 12:55:50 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/fablus/public_html/app/Http/Controllers/KikoeTwitterController.php on line 10
+[04-Jul-2018 12:56:40 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/fablus/public_html/app/Http/Controllers/KikoeTwitterController.php on line 10
+[04-Jul-2018 12:56:54 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/fablus/public_html/app/Http/Controllers/KikoeTwitterController.php on line 10
+[07-Jul-2018 05:46:23 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\SocialAuthController::callback() in /home/fablus/public_html/app/Http/Controllers/SocialAuthController.php on line 26

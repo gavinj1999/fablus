@@ -13,24 +13,18 @@
 
         <div class="inner">
           <figure>
-            <a href="{{$article->url}}">
+            <a href="/article/{{$article->slug}}">
               <img src="{{$article->urlToImage or '/storage/'.setting('kiko.missing_320')}}" alt="{{$article->title}}">
             </a>
           </figure>
           <div class="padding">
             <div class="detail">
-              <div class="time">{{$article->published_at}}</div>
+              <div class="time">{{Carbon\Carbon::parse($article->published_at)->diffForHumans()}}</div>
               <div class="category"><a href="category.html">{{$article->source_name}}</a></div>
             </div>
-            <h2><a href="{{$article->url}}">{{$article->title}}</a></h2>
+            <h2><a href="/article/{{$article->slug}}">{{$article->title}}</a></h2>
             <p>{{$article->description}}</p>
-            <footer>
-              <a href="#" id="love_{{$article->id}}" onclick="love({{$article->id}})" class="love"><i class="ion-android-favorite-outline"></i> <div>{{$article->score}}</div></a>
-              <a class="btn btn-primary more" href="{{$article->url}}">
-                <div>More</div>
-                <div><i class="ion-ios-arrow-thin-right"></i></div>
-              </a>
-            </footer>
+@include('kikoe.partials._cardfooter')
           </div>
         </div>
 

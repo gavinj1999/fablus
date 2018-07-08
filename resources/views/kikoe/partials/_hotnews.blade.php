@@ -15,15 +15,15 @@
     <article class="article-mini">
       <div class="inner">
         <figure>
-          <a href="single.html">
+          <a href="/article/{{$hot->slug}}">
             <img src="{{$hot->urlToImage}}" alt="Sample Article">
           </a>
         </figure>
         <div class="padding">
-          <h1><a href="single.html">{{$hot->title}}</a></h1>
+          <h1><a href="/article/{{$hot->slug}}">{{$hot->title}}</a></h1>
           <div class="detail">
-            <div class="category"><a href="category.html">{{$hot->category}}</a></div>
-            <div class="time">December 22, 2016</div>
+            <div class="category"><a href="/category/{{$hot->category}}">{{$hot->category}}</a></div>
+            <div class="time">{{Carbon\Carbon::parse($hot->published_at)->diffForHumans()}}</div>
           </div>
         </div>
       </div>

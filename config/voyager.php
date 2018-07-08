@@ -207,11 +207,15 @@ return [
 
     // Here you can specify additional assets you would like to be included in the master.blade
     'additional_css' => [
-        //'css/custom.css',
+    //'bootstrap-combobox',
+
     ],
 
     'additional_js' => [
-        //'js/custom.js',
+        'js/other.js',
+        '/js/vue.js',
+        '/js/axios.min.js',
+        '/js/kikoe.js',
     ],
 
     'googlemaps' => [
